@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Alice|Gabriela|Literata|Old+Standard+TT&display=swap');
+
+body {
+  font-family: 'Oswald', sans-serif;
+  padding-top:20px;
+  /* color: #00b7c3; */
+  color:white;
+  text-shadow: 0 0 2px;
+  text-align:center;
+  /* background-image: linear-gradient(to bottom, rgb(101, 115, 255), rgb(111, 114, 247), rgb(120, 114, 239), rgb(130, 113, 231), rgb(139, 112, 223), rgb(149, 111, 215), rgb(158, 111, 208), rgb(168, 110, 200), rgb(177, 109, 192), rgb(187, 108, 184), rgb(196, 108, 176), rgb(206, 107, 168)); */
+
+  background-image: linear-gradient(to bottom, rgb(127, 238, 255), rgb(138, 230, 255), rgb(150, 221, 255), rgb(161, 213, 255), rgb(172, 204, 255), rgb(183, 196, 255), rgb(195, 187, 255), rgb(206, 179, 255), rgb(217, 170, 255), rgb(228, 162, 255), rgb(240, 153, 255), rgb(251, 145, 255));
+
+  /* background-image: linear-gradient(to top, rgb(102, 0, 255), rgb(109, 19, 255), rgb(116, 39, 255), rgb(123, 58, 255), rgb(130, 78, 255), rgb(137, 97, 255), rgb(134, 122, 255), rgb(131, 147, 255), rgb(129, 173, 255), rgb(126, 198, 255), rgb(123, 223, 255), rgb(120, 248, 255)); */
+
+}
+
+#slide-one{
+  background-size: contain;
+  /* background-image: url("../img/1front.gif"), url("../img/1back.gif"); */
+  background-image: url("../img/1back.gif");
+  border-radius: 15%;
+  animation:3s ease-in 1s 2 reverse
+  /* background-blend-mode: normal; */
+}
+
+h1, h2, h3, h4, h5 , p{
+  /* color: #00b7c3; */
+  color:white;
+  margin-top:10px;
+  margin-bottom:10px;
+  font-family: 'Gabriela', serif;
+  text-align:center;
+  padding-top:10px;
+}
+
+.img-margin{
+  margin-top: 3em;
+  margin-bottom:3em;
+}
+
+.rounded-img{
+  border-radius: 15%;
+  /* box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3) */
+}
+
+.bg-blue {
+  background-color: #00d1e8 !important;
+}
+
+a.bg-blue:hover, a.bg-blue:focus,
+button.bg-dark:hover,
+button.bg-dark:focus {
+  background-color: #00b7c3 !important;
+}
